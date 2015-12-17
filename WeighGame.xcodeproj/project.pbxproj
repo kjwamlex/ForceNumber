@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885C8F0E1C228A960006D81D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C8F0D1C228A960006D81D /* AppDelegate.swift */; };
+		885C8F101C228A960006D81D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C8F0F1C228A960006D81D /* ViewController.swift */; };
+		885C8F131C228A960006D81D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885C8F111C228A960006D81D /* Main.storyboard */; };
+		885C8F161C228A960006D81D /* WeighGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 885C8F141C228A960006D81D /* WeighGame.xcdatamodeld */; };
+		885C8F181C228A960006D81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885C8F171C228A960006D81D /* Assets.xcassets */; };
+		885C8F1B1C228A960006D81D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885C8F191C228A960006D81D /* LaunchScreen.storyboard */; };
+		885C8F261C228A960006D81D /* WeighGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C8F251C228A960006D81D /* WeighGameTests.swift */; };
+		885C8F311C228A960006D81D /* WeighGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C8F301C228A960006D81D /* WeighGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885C8F221C228A960006D81D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885C8F021C228A950006D81D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885C8F091C228A950006D81D;
+			remoteInfo = WeighGame;
+		};
+		885C8F2D1C228A960006D81D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885C8F021C228A950006D81D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885C8F091C228A950006D81D;
+			remoteInfo = WeighGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		885C8F0A1C228A950006D81D /* WeighGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeighGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885C8F0D1C228A960006D81D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		885C8F0F1C228A960006D81D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		885C8F121C228A960006D81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		885C8F151C228A960006D81D /* WeighGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeighGame.xcdatamodel; sourceTree = "<group>"; };
+		885C8F171C228A960006D81D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		885C8F1A1C228A960006D81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		885C8F1C1C228A960006D81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885C8F211C228A960006D81D /* WeighGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeighGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885C8F251C228A960006D81D /* WeighGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeighGameTests.swift; sourceTree = "<group>"; };
+		885C8F271C228A960006D81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885C8F2C1C228A960006D81D /* WeighGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeighGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885C8F301C228A960006D81D /* WeighGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeighGameUITests.swift; sourceTree = "<group>"; };
+		885C8F321C228A960006D81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885C8F071C228A950006D81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C8F1E1C228A960006D81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C8F291C228A960006D81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885C8F011C228A950006D81D = {
+			isa = PBXGroup;
+			children = (
+				885C8F0C1C228A950006D81D /* WeighGame */,
+				885C8F241C228A960006D81D /* WeighGameTests */,
+				885C8F2F1C228A960006D81D /* WeighGameUITests */,
+				885C8F0B1C228A950006D81D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885C8F0B1C228A950006D81D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885C8F0A1C228A950006D81D /* WeighGame.app */,
+				885C8F211C228A960006D81D /* WeighGameTests.xctest */,
+				885C8F2C1C228A960006D81D /* WeighGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885C8F0C1C228A950006D81D /* WeighGame */ = {
+			isa = PBXGroup;
+			children = (
+				885C8F0D1C228A960006D81D /* AppDelegate.swift */,
+				885C8F0F1C228A960006D81D /* ViewController.swift */,
+				885C8F111C228A960006D81D /* Main.storyboard */,
+				885C8F171C228A960006D81D /* Assets.xcassets */,
+				885C8F191C228A960006D81D /* LaunchScreen.storyboard */,
+				885C8F1C1C228A960006D81D /* Info.plist */,
+				885C8F141C228A960006D81D /* WeighGame.xcdatamodeld */,
+			);
+			path = WeighGame;
+			sourceTree = "<group>";
+		};
+		885C8F241C228A960006D81D /* WeighGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				885C8F251C228A960006D81D /* WeighGameTests.swift */,
+				885C8F271C228A960006D81D /* Info.plist */,
+			);
+			path = WeighGameTests;
+			sourceTree = "<group>";
+		};
+		885C8F2F1C228A960006D81D /* WeighGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				885C8F301C228A960006D81D /* WeighGameUITests.swift */,
+				885C8F321C228A960006D81D /* Info.plist */,
+			);
+			path = WeighGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885C8F091C228A950006D81D /* WeighGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885C8F351C228A960006D81D /* Build configuration list for PBXNativeTarget "WeighGame" */;
+			buildPhases = (
+				885C8F061C228A950006D81D /* Sources */,
+				885C8F071C228A950006D81D /* Frameworks */,
+				885C8F081C228A950006D81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeighGame;
+			productName = WeighGame;
+			productReference = 885C8F0A1C228A950006D81D /* WeighGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885C8F201C228A960006D81D /* WeighGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885C8F381C228A960006D81D /* Build configuration list for PBXNativeTarget "WeighGameTests" */;
+			buildPhases = (
+				885C8F1D1C228A960006D81D /* Sources */,
+				885C8F1E1C228A960006D81D /* Frameworks */,
+				885C8F1F1C228A960006D81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885C8F231C228A960006D81D /* PBXTargetDependency */,
+			);
+			name = WeighGameTests;
+			productName = WeighGameTests;
+			productReference = 885C8F211C228A960006D81D /* WeighGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		885C8F2B1C228A960006D81D /* WeighGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885C8F3B1C228A960006D81D /* Build configuration list for PBXNativeTarget "WeighGameUITests" */;
+			buildPhases = (
+				885C8F281C228A960006D81D /* Sources */,
+				885C8F291C228A960006D81D /* Frameworks */,
+				885C8F2A1C228A960006D81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885C8F2E1C228A960006D81D /* PBXTargetDependency */,
+			);
+			name = WeighGameUITests;
+			productName = WeighGameUITests;
+			productReference = 885C8F2C1C228A960006D81D /* WeighGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885C8F021C228A950006D81D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "김준우";
+				TargetAttributes = {
+					885C8F091C228A950006D81D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5AKLERAMJ2;
+					};
+					885C8F201C228A960006D81D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5AKLERAMJ2;
+						TestTargetID = 885C8F091C228A950006D81D;
+					};
+					885C8F2B1C228A960006D81D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5AKLERAMJ2;
+						TestTargetID = 885C8F091C228A950006D81D;
+					};
+				};
+			};
+			buildConfigurationList = 885C8F051C228A950006D81D /* Build configuration list for PBXProject "WeighGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 885C8F011C228A950006D81D;
+			productRefGroup = 885C8F0B1C228A950006D81D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885C8F091C228A950006D81D /* WeighGame */,
+				885C8F201C228A960006D81D /* WeighGameTests */,
+				885C8F2B1C228A960006D81D /* WeighGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885C8F081C228A950006D81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C8F1B1C228A960006D81D /* LaunchScreen.storyboard in Resources */,
+				885C8F181C228A960006D81D /* Assets.xcassets in Resources */,
+				885C8F131C228A960006D81D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C8F1F1C228A960006D81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C8F2A1C228A960006D81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885C8F061C228A950006D81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C8F161C228A960006D81D /* WeighGame.xcdatamodeld in Sources */,
+				885C8F101C228A960006D81D /* ViewController.swift in Sources */,
+				885C8F0E1C228A960006D81D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C8F1D1C228A960006D81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C8F261C228A960006D81D /* WeighGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C8F281C228A960006D81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C8F311C228A960006D81D /* WeighGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		885C8F231C228A960006D81D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885C8F091C228A950006D81D /* WeighGame */;
+			targetProxy = 885C8F221C228A960006D81D /* PBXContainerItemProxy */;
+		};
+		885C8F2E1C228A960006D81D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885C8F091C228A950006D81D /* WeighGame */;
+			targetProxy = 885C8F2D1C228A960006D81D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		885C8F111C228A960006D81D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885C8F121C228A960006D81D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		885C8F191C228A960006D81D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885C8F1A1C228A960006D81D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		885C8F331C228A960006D81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		885C8F341C228A960006D81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		885C8F361C228A960006D81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeighGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.WeighGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		885C8F371C228A960006D81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeighGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.WeighGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		885C8F391C228A960006D81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeighGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.WeighGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeighGame.app/WeighGame";
+			};
+			name = Debug;
+		};
+		885C8F3A1C228A960006D81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeighGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.WeighGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeighGame.app/WeighGame";
+			};
+			name = Release;
+		};
+		885C8F3C1C228A960006D81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeighGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.WeighGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeighGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		885C8F3D1C228A960006D81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeighGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.WeighGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeighGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885C8F051C228A950006D81D /* Build configuration list for PBXProject "WeighGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C8F331C228A960006D81D /* Debug */,
+				885C8F341C228A960006D81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885C8F351C228A960006D81D /* Build configuration list for PBXNativeTarget "WeighGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C8F361C228A960006D81D /* Debug */,
+				885C8F371C228A960006D81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		885C8F381C228A960006D81D /* Build configuration list for PBXNativeTarget "WeighGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C8F391C228A960006D81D /* Debug */,
+				885C8F3A1C228A960006D81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		885C8F3B1C228A960006D81D /* Build configuration list for PBXNativeTarget "WeighGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C8F3C1C228A960006D81D /* Debug */,
+				885C8F3D1C228A960006D81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		885C8F141C228A960006D81D /* WeighGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				885C8F151C228A960006D81D /* WeighGame.xcdatamodel */,
+			);
+			currentVersion = 885C8F151C228A960006D81D /* WeighGame.xcdatamodel */;
+			path = WeighGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 885C8F021C228A950006D81D /* Project object */;
+}
