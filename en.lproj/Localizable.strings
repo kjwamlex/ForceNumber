@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  ForceNumber
+
+  Created by 김준우 on 2016. 2. 9..
+  Copyright © 2016년 김준우. All rights reserved.
+*/
+Start="Start!";
+
+Welcome="Welcome to ForceNumber!";
+
+SKIP="Skip";
+
+IF_START_PRESSED_TWODTOUCH="If you press the Start! button";
+
+AND_MOVE_SLIDER="and move the slider";
+
+THE_NUMBER_IN_THE_MIDDLE="The number in the middle";
+
+OF_THE_CIRCLE_WILL_CHANGE="of the circle will change.";
+
+YOU_HAVE_TO_MATCH_THAT_NUMBER="You have to match that number";
+
+WITH_THE_NUMBER_ON_TOP="with the number on top";
+
+IF_YOU_MATCH_THEM_THE_SCREEN="If you match them, the screen";
+
+WILL_CHANGE_ITS_COLOR_TO_GREEN="will change its color to green.";
+
+HOWEVER_IF_YOU_DONT_MATCH_THEM="However, if you don't match them,";
+
+IT_WILL_CHANGE_TO_RED="it will change to red.";
+
+IF_YOU_SUCCEED="If you succeed,";
+
+THE_BOTTOM_NUMBER_WILL_INCREASE="the bottom number will increase.";
+
+THAT_COUNTS_THE_NUMBER_OF_TIMES="That counts the number of times";
+
+YOU_WON="you won.";
+
+YOU_NEED_TO_PRESS_START="You need to press Start!";
+
+AGAIN_FOR_ANOTHER_ROUND="again for another round.";
+
+THE_TUTORIAL_IS_FINISHED="The tutorial is finished!";
+
+YOU_ARE_WELL_ON_YOU="You're well on your";
+
+WAY_TO_BECOMEING_A_CHAMPION="way to becoming a champion!";
+
+
+
+
+
+
+
+
+
+
+
+IF_YOU_PRESS_THE_SCREEN="If you press the screen";
+
+YOU_NEED_TO_LIFT_YOUR_FINGER_AFTER="You need to lift your finger after";
+
+THE_SCREEN_CHANGES_ITS_COLOR="the color changes for the next round.";
+
+
+
+EASY_MODE="Easy Mode";
+
+NORMAL_MODE="Normal Mode";
+
+HARD_MODE="Hard Mode";
+
+TUTORIAL_MODE="Tutorial";

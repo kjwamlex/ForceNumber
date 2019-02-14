@@ -1,0 +1,80 @@
+/* 
+  Localizable.strings
+  ForceNumber
+
+  Created by 김준우 on 2016. 2. 9..
+  Copyright © 2016년 김준우. All rights reserved.
+*/
+Back="뒤로";
+
+Start="시작하기";
+
+SKIP="건너뛰기";
+
+Welcome="ForceNumber에 오신 것을 환영합니다!";
+
+IF_START_PRESSED_TWODTOUCH="시작 버튼을 누르고나서";
+
+AND_MOVE_SLIDER="슬라이더를 움직이면";
+
+THE_NUMBER_IN_THE_MIDDLE="화면 중앙에 있는 숫자가";
+
+OF_THE_CIRCLE_WILL_CHANGE="바뀝니다.";
+
+YOU_HAVE_TO_MATCH_THAT_NUMBER="그 숫자를 위에 있는";
+
+WITH_THE_NUMBER_ON_TOP="숫자와 맞춰야 됩니다.";
+
+IF_YOU_MATCH_THEM_THE_SCREEN="그 숫자들을 맞추면, 화면이";
+
+WILL_CHANGE_ITS_COLOR_TO_GREEN="초록색으로 변합니다.";
+
+HOWEVER_IF_YOU_DONT_MATCH_THEM="하지만, 그 숫자들을 맞추지 못하면";
+
+IT_WILL_CHANGE_TO_RED="화면이 빨간색으로 변합니다.";
+
+IF_YOU_SUCCEED="성공 할때마다 밑에 있는";
+
+THE_BOTTOM_NUMBER_WILL_INCREASE="숫자가 늘어납니다.";
+
+THAT_COUNTS_THE_NUMBER_OF_TIMES="이 숫자는 성공 횟수를";
+
+YOU_WON="알려줍니다.";
+
+YOU_NEED_TO_PRESS_START="시작버튼을 다시 눌러야";
+
+AGAIN_FOR_ANOTHER_ROUND="다시 시작할 수 있습니다.";
+
+THE_TUTORIAL_IS_FINISHED="드디어 튜토라얼이 끝났습니다!";
+
+YOU_ARE_WELL_ON_YOU="이제 게임을 하실";
+
+WAY_TO_BECOMEING_A_CHAMPION="준비가 됬습니다!";
+
+
+
+
+
+
+
+
+
+
+
+
+IF_YOU_PRESS_THE_SCREEN="화면을 누르시면";
+
+YOU_NEED_TO_LIFT_YOUR_FINGER_AFTER="화면 색이 변하고 난 후 손을";
+
+THE_SCREEN_CHANGES_ITS_COLOR="떼셔야 다시 시작할 수 있습니다.";
+
+
+
+EASY_MODE="쉬운 모드";
+
+NORMAL_MODE="표준 모드";
+
+HARD_MODE="어려운 모드";
+
+TUTORIAL_MODE="튜토리얼";
+
